@@ -4,7 +4,7 @@
     --text-color: #ffffff;
     --link-color: #0094C6;
     --link-hover-color: #001242;
-    --sidebar-width: 350px;
+    --sidebar-width: 300px;
     --hover-color: rgba(255,255,255,1);
 }
 
@@ -82,4 +82,38 @@ h1 {
 
 .svg-image {
     height: 2.5rem
+}
+
+iframe {
+    margin-top: 1rem;
+    border-top: 1px solid black
+}
+
+table {
+  margin-top: 1rem;
+  border: 1px solid var(--nav-bg-color);
+  border-radius: 8px;
+  letter-spacing: 1px;
+  width:100%;
+}
+
+
+
+th, td {
+  border: 1px solid var(--nav-bg-color);
+  padding: 8px 10px;
+}
+
+.link:link, .link:visited{
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.link:hover, .link:active {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.formulas {
+    font-family: "Latin Modern Roman", "Computer Modern", sans-serif;
 }
